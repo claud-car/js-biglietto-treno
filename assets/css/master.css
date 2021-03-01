@@ -1,0 +1,69 @@
+h1{
+  color: red;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.biglietto-passeggeri{
+  width: 50%;
+  margin-top: 20px;
+  background-color: #fff6b5;
+  border: 1px solid black;
+}
+
+.titolo{
+  display: flex;
+  flex-direction: column;
+}
+
+h2{
+  color: green;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.biglietto-passeggeri hr{
+  border-color: black;
+  margin: 0;
+}
+
+.dati-passeggeri{
+  display:flex;
+  flex-direction: column;
+}
+
+p{
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.totale-passeggero-1{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.totale-passeggero-1 p{
+  margin-right: 20px;
+}
+
+.totale{
+  width: 50%;
+  margin-top: 20px;
+  background-color: #fff6b5;
+  display: flex;
+  justify-content:space-evenly;
+}
+
+.totale p {
+  padding: 10px 0;
+}
+
+.totale button{
+  margin: 10px;
+  padding: 0 40px;
+  background-color: red;
+  border-radius: 15px;
+  border: none;
+  font-weight: bold;
+  font-size: 15px;
+}
