@@ -30,8 +30,10 @@ var prezzobiglietto1 = (0.20 * percorsopasseggero1);
 
 if (etapasseggero1 < 18) {
   console.log("Sconto del 20% applicato, totale : " + prezzobiglietto1 / 100 *80);
+  prezzobiglietto1 = prezzobiglietto1 /100 *80 ;
 } else if (etapasseggero1 > 65) {
   console.log("Sconto del 40% applicato, totale : " + prezzobiglietto1 / 100 *60);
+  prezzobiglietto1 = prezzobiglietto1 /100 *60 ;
 } else {
   console.log("Il prezzo totale del biglietto del passeggero 1 è : " + prezzobiglietto1);
 }
@@ -80,8 +82,10 @@ var prezzobiglietto2 = (0.20 * percorsopasseggero2);
 
 if (etapasseggero2 < 18) {
   console.log("Sconto del 20% applicato, totale : " + prezzobiglietto2 / 100 *80);
+  prezzobiglietto2 = prezzobiglietto2 /100 *80 ;
 } else if (etapasseggero2 > 65) {
   console.log("Sconto del 40% applicato, totale : " + prezzobiglietto2 / 100 *60);
+  prezzobiglietto2 = prezzobiglietto2 /100 *60 ;
 } else {
   console.log("Il prezzo totale del biglietto del passeggero 2 è : " + prezzobiglietto2);
 }
@@ -131,8 +135,10 @@ var prezzobiglietto3 = (0.20 * percorsopasseggero3);
 
 if (etapasseggero3 < 18) {
   console.log("Sconto del 20% applicato, totale : " + prezzobiglietto3 / 100 *80);
+  prezzobiglietto3 = prezzobiglietto3 /100 *80 ;
 } else if (etapasseggero3 > 65) {
   console.log("Sconto del 40% applicato, totale : " + prezzobiglietto3 / 100 *60);
+  prezzobiglietto3 = prezzobiglietto3 /100 *60 ;
 } else {
   console.log("Il prezzo totale del biglietto del passeggero 3 è : " + prezzobiglietto3);
 }
