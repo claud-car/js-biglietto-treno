@@ -96,7 +96,7 @@ document.getElementById('totalepasseggero3').innerHTML = "Prezzo totale del bigl
 var prezzototaledeibiglietti = (prezzobiglietto1 + prezzobiglietto2 + prezzobiglietto3);
 console.log(prezzototaledeibiglietti);
 
-document.getElementById('totale-biglietti').innerHTML = "Totale da pagare = " + prezzobiglietto1 + prezzobiglietto2 + prezzobiglietto3;
+document.getElementById('totale-biglietti').innerHTML = "Totale da pagare = " + prezzototaledeibiglietti;
 
 
 // // RISPONDO SALUTANDO L'UTENTE
